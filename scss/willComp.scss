@@ -1,0 +1,173 @@
+@use "_Global.scss";
+$drkBlu: #0081AF;
+$midBlu: #00ABE7;
+$liBlu: #2DC7FF;
+$liOran: #EAD2AC;
+$drkOran: #EABA6B;
+#gameArea{
+    background-color: $drkOran;
+    height:700px;
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid $liBlu;
+    border-radius: 10px;
+    font-size: 1vw;
+    color:$liOran;
+  }
+
+  #intro, #guide{
+    font-size: 1.5em;
+  }
+  #intro p, #guide p{
+    margin:0px;
+  }
+  #intro h1{
+    margin-top:0px;
+  }
+  #computerPlay{
+    width:90%;
+    height:20%;
+    background-color:$liOran;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid $drkBlu;
+  }
+  #gameControl {
+    display:flex;
+    justify-content: space-around;
+    width:90%;
+    border:3px solid $drkBlu;
+    background-color: $midBlu;
+  
+  }
+  #gameField{
+    height:60%;
+    width:90%;
+    background-color: $midBlu;
+    border:3px solid $drkBlu;
+  }
+  #lionMob{
+    background-color: $drkBlu;
+    height:150px;
+    width:95%;
+    color:$liOran;
+    font-size: 3em;
+    border:3px solid $liBlu;
+    border-radius: 10px;
+    margin-top:25px;
+  }
+  #lionAttack {
+    width:30%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    color:$drkBlu;
+  }
+  #puterLion, #puterTurtle, #puterGiraffe{
+    height:80%;
+    width:40%;
+    background-color: $midBlu;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    border: 3px solid $drkBlu;
+    border-radius: 10px;
+    flex-direction: column;
+    color:$liOran;
+  }
+  #lionDodge {
+    width:30%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    margin-top:70px;
+    color:$drkBlu;
+  }
+  #turtleShell, #turtleAttack, #snap{
+      color:$drkBlu;
+      width:30%;
+      font-family: fantasy;
+      border: 5px solid $drkBlu;
+      border-radius: 10px;
+      background-color: $drkOran;
+      margin-top:70px;
+  }
+  #puterLion p{
+    margin:0px;
+    font-size: .5em;
+  }
+  #puterTurtle p{
+    margin:0px;
+    font-size: .5em;
+  }
+  #puterGiraffe p{
+    margin:0px;
+    font-size: .5em;
+  }
+  #computerTurn{
+    margin-right:0%;
+    margin-bottom:15px;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $midBlu;
+    width:25%;
+  }
+  
+  #bask {
+    width:30%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    margin-top:70px;
+    color:$drkBlu;
+  }
+  #turtle{
+    width:15%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    color:$drkBlu;
+  }
+  #lion{
+    width:15%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    color:$drkBlu;
+  }
+  #giraffe{
+    width:15%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    color:$drkBlu;
+  }
+  #giraffeAttack, #munch, #flail {
+    width:30%;
+    font-family: fantasy;
+    border: 5px solid $drkBlu;
+    border-radius: 10px;
+    background-color: $drkOran;
+    margin-top:70px;
+    color:$drkBlu;
+  }
+  #lionMob p{
+    margin:0;
+    height:100px;
+  }
+  input {
+      font-size: 1vw;
+      color:$liOran;
+  }

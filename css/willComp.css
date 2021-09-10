@@ -1,0 +1,253 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0081AF;
+  color: #EAD2AC;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #2DC7FF;
+  color: #EAD2AC;
+  width: 100%;
+}
+nav h1 {
+  margin: 0;
+  font-size: 3em;
+}
+nav a {
+  text-decoration: none;
+  color: #EAD2AC;
+  margin-right: 15%;
+}
+nav div {
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 30%;
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #2DC7FF;
+  margin-top: 40px;
+  color: #EAD2AC;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: #EAD2AC;
+  margin-right: 15%;
+}
+footer div {
+  width: 20%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.content div {
+  border: 3px solid #EAD2AC;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1% 1% 1% 1%;
+}
+
+#gameArea {
+  background-color: #EABA6B;
+  height: 700px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #2DC7FF;
+  border-radius: 10px;
+  font-size: 1vw;
+  color: #EAD2AC;
+}
+
+#intro, #guide {
+  font-size: 1.5em;
+}
+
+#intro p, #guide p {
+  margin: 0px;
+}
+
+#intro h1 {
+  margin-top: 0px;
+}
+
+#computerPlay {
+  width: 90%;
+  height: 20%;
+  background-color: #EAD2AC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #0081AF;
+}
+
+#gameControl {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  border: 3px solid #0081AF;
+  background-color: #00ABE7;
+}
+
+#gameField {
+  height: 60%;
+  width: 90%;
+  background-color: #00ABE7;
+  border: 3px solid #0081AF;
+}
+
+#lionMob {
+  background-color: #0081AF;
+  height: 150px;
+  width: 95%;
+  color: #EAD2AC;
+  font-size: 3em;
+  border: 3px solid #2DC7FF;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+#lionAttack {
+  width: 30%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  color: #0081AF;
+}
+
+#puterLion, #puterTurtle, #puterGiraffe {
+  height: 80%;
+  width: 40%;
+  background-color: #00ABE7;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  border: 3px solid #0081AF;
+  border-radius: 10px;
+  flex-direction: column;
+  color: #EAD2AC;
+}
+
+#lionDodge {
+  width: 30%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  margin-top: 70px;
+  color: #0081AF;
+}
+
+#turtleShell, #turtleAttack, #snap {
+  color: #0081AF;
+  width: 30%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  margin-top: 70px;
+}
+
+#puterLion p {
+  margin: 0px;
+  font-size: 0.5em;
+}
+
+#puterTurtle p {
+  margin: 0px;
+  font-size: 0.5em;
+}
+
+#puterGiraffe p {
+  margin: 0px;
+  font-size: 0.5em;
+}
+
+#computerTurn {
+  margin-right: 0%;
+  margin-bottom: 15px;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #00ABE7;
+  width: 25%;
+}
+
+#bask {
+  width: 30%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  margin-top: 70px;
+  color: #0081AF;
+}
+
+#turtle {
+  width: 15%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  color: #0081AF;
+}
+
+#lion {
+  width: 15%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  color: #0081AF;
+}
+
+#giraffe {
+  width: 15%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  color: #0081AF;
+}
+
+#giraffeAttack, #munch, #flail {
+  width: 30%;
+  font-family: fantasy;
+  border: 5px solid #0081AF;
+  border-radius: 10px;
+  background-color: #EABA6B;
+  margin-top: 70px;
+  color: #0081AF;
+}
+
+#lionMob p {
+  margin: 0;
+  height: 100px;
+}
+
+input {
+  font-size: 1vw;
+  color: #EAD2AC;
+}
+
+/*# sourceMappingURL=willComp.css.map */
